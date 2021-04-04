@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tips And tricks</string>
+    <string name="solve">solve</string>
+    <string name="tips_and_tricks">Tips And Tricks</string>
+    <string name="simultaneous_equations_with_three_variables">Simultaneous Equations With Three Variables</string>
+    <string name="plus5">+</string>
+    <string name="title_activity_sequations">Sequations</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="simultaneous_equations_with_two_variables" />
+    <string name="calculate" />
+</resources>

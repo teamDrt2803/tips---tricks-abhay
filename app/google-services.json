@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "727239967129",
+    "firebase_url": "https://tips-and-tricks-f98bb-default-rtdb.firebaseio.com",
+    "project_id": "tips-and-tricks-f98bb",
+    "storage_bucket": "tips-and-tricks-f98bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727239967129:android:f53bdd19bcd47492ac1308",
+        "android_client_info": {
+          "package_name": "com.example.tipsandtricks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727239967129-mr9oc8huckgijrnre06hlfeigi2bmprb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGiSdlr89MTwrCOhdfXnO-Bo6NPnNvg1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727239967129-mr9oc8huckgijrnre06hlfeigi2bmprb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    tools:context=".TwoVariables">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Simultaneous Equations With Two Variables"
+        android:textAlignment="center"
+        android:textSize="22sp"/>
+
+    <GridLayout
+        android:id="@+id/Grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView2"
+        android:columnCount="7"
+        android:rowCount="2"
+        tools:ignore="UnknownId"
+        android:layout_marginTop="100dp"
+        >
+
+        <EditText
+            android:id="@+id/a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="a1"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/x1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="x"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:id="@+id/plus1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="+"
+            android:textSize="22sp"/>
+
+        <EditText
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="b1"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/y1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="4"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="y"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:id="@+id/equalsto1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="5"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="="
+            android:textSize="22sp"/>
+
+
+
+        <EditText
+            android:id="@+id/c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="6"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="c1"
+            android:inputType="number"/>
+
+
+
+
+
+
+
+
+        <EditText
+            android:id="@+id/a2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="a2"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/x2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="x"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:id="@+id/plus3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="+"
+            android:textSize="22sp"/>
+
+        <EditText
+            android:id="@+id/b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="b2"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/y2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="4"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="y"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:id="@+id/equalsto2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="5"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="="
+            android:textSize="22sp"/>
+
+
+        <EditText
+            android:id="@+id/c2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="6"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="c2"
+            android:inputType="number"/>
+
+
+
+
+    </GridLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Grid"
+        android:gravity="center_horizontal"
+        android:id="@+id/buttonlinear"
+        android:layout_marginTop="50dp">
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:text="@string/solve" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/button1"
+            android:text="clear"
+            android:layout_marginTop="25dp"
+            />
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/Grid2"
+        android:layout_below="@id/buttonlinear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:columnCount="3"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:rowCount="2"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="x"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:id="@+id/y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="y"
+            android:textSize="22sp"/>
+
+
+        <TextView
+            android:id="@+id/eq1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="="
+            android:textSize="22sp"/>
+
+        <TextView
+            android:id="@+id/eq2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="="
+            android:textSize="22sp"/>
+
+
+        <TextView
+            android:id="@+id/ry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Result y"
+            android:textSize="22sp"/>
+
+
+        <TextView
+            android:id="@+id/rx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Result x"
+            android:textSize="22sp"/>
+    </GridLayout>
+
+</RelativeLayout>
